@@ -11,6 +11,7 @@ module.exports = {
         'textGreen': '#4AB9A5',
         'textGray': '#545353',
         'inputWhite': '#F9F9F9',
+        'headerGray': '#393939',
       },
   },
   plugins: [],
