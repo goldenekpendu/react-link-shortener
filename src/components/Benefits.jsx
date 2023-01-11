@@ -9,7 +9,7 @@ export const Benefits = () => {
         <h3 className=' font-bold text-2xl tracking-tight text-center lg:text-4xl'>Sniply's Benefits</h3>
         <p className=' pt-5 text-center max-w-lg mx-auto text-sm text-textGray tracking-tight lg:text-lg lg:max-w-2xl'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti totam rem exercitationem facere ipsam dignissimos deserunt placeat veritatis debitis aut suscipit modi recusandae neque</p>
 
-        <div className=' flex flex-col gap-10 my-10 md:flex md:flex-col md:mx-auto lg:flex-row justify-evenly lg:my-20'>
+        <div className=' flex flex-col gap-10 my-10 md:flex md:flex-col md:max-w-md md:mx-auto lg:max-w-none lg:flex-row justify-evenly lg:my-20'>
             <Benefit1 />
             <Benefit2 />
             <Benefit3 />

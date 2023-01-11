@@ -1,6 +1,7 @@
 import React from 'react'
 import divider from '../images/divider.svg'
 import speed from '../images/uncompromised-speed.svg'
+import { Benefits_Perks2 } from './Benefits_Perks2'
 
 const Benefit3 = () => {
     return <article className=' py-8 px-10 rounded-md border'>
@@ -13,7 +14,11 @@ const Benefit3 = () => {
 
         <img src={divider} className=" py-5" />
 
-        <h6 className=' font-semibold tracking-tight text-sm'>Popular Uncompromised Speed Features</h6>
+        <h6 className=' font-semibold tracking-tight text-sm pb-3'>Popular Uncompromised Speed Features</h6>
+        <Benefits_Perks2 />
+        <Benefits_Perks2 />
+        <Benefits_Perks2 />
+
     </article>
 }
 

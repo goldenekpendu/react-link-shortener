@@ -1,10 +1,10 @@
 import React from 'react'
 import divider from '../images/divider.svg'
 import security from '../images/top-notch-security.svg'
+import { Benefits_Perks } from './Benefits_Perks'
 
-import linkIcon from '../images/link-management.svg'
 const Benefit2 = () => {
-    return <article className=' py-8 px-10 rounded-md border border-darkBackground bg-darkBackground'>
+    return <article className=' py-8 px-10 rounded-md border border-darkBackground bg-darkBackground '>
         <div className=' flex items-center gap-x-5'>
             <img src={security} width={30} />
             <h6 className=' font-semibold text-sm tracking-tight capitalize text-textGreen lg:text-lg'>Top-notch Security</h6>
@@ -14,7 +14,11 @@ const Benefit2 = () => {
 
         <img src={divider} className=" py-5 opacity-50" />
 
-        <h6 className=' font-semibold tracking-tight text-sm text-gray-200'>Popular Top-notch Security Features</h6>
+        <h6 className=' font-semibold tracking-tight text-sm text-gray-200 pb-3'>Popular Top-notch Security Features</h6>
+        <Benefits_Perks />
+        <Benefits_Perks />
+        <Benefits_Perks />
+
     </article>
 }
 
