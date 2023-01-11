@@ -5,6 +5,7 @@ import { Hero } from './components/Hero'
 import { Navbar } from './components/Navbar'
 import Stats from './components/Stats'
 import Promo from './components/Promo'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Stats />
       <Brands />
       <Promo />
+      <Footer />
     </main>
   )
 }
